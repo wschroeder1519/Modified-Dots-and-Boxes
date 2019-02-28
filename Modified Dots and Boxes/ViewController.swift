@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         screenBoard.text = game.print()
     }
     
+    // Dismiss the numeric soft keyboard
     @IBAction func backgroundTouched(_ sender: UIControl) {
         
         for tf in textFields{
@@ -42,6 +43,7 @@ class ViewController: UIViewController {
         }
     }
     
+    // Restart the game with a fresh board
     @IBAction func restartPressed(_ sender: UIButton) {
         
         // Before reset, ask user if certain
@@ -55,6 +57,7 @@ class ViewController: UIViewController {
         self.present(restartAlert, animated: true, completion: nil)
     }
     
+    // Check user input and apply the move if it is valid
     @IBAction func submitPressed(_ sender: UIButton) {
     
         if let row = rowEntry.text, let col = columnEntry.text {
