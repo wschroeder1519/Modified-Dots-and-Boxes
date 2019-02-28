@@ -12,6 +12,9 @@
 		BE530CD9222723E000B62C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE530CD7222723E000B62C98 /* Main.storyboard */; };
 		BE530CDB222723E600B62C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE530CDA222723E600B62C98 /* Assets.xcassets */; };
 		BE530CDE222723E600B62C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE530CDC222723E600B62C98 /* LaunchScreen.storyboard */; };
+		BEE5F0DD22277395003B11BC /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5F0DC22277395003B11BC /* GameState.swift */; };
+		BEE5F0DF22278968003B11BC /* Successor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5F0DE22278968003B11BC /* Successor.swift */; };
+		BEE5F0E12227907D003B11BC /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5F0E02227907D003B11BC /* Search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BE530CDA222723E600B62C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE530CDD222723E600B62C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE530CDF222723E600B62C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE5F0DC22277395003B11BC /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		BEE5F0DE22278968003B11BC /* Successor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Successor.swift; sourceTree = "<group>"; };
+		BEE5F0E02227907D003B11BC /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				BE530CD3222723DF00B62C98 /* AppDelegate.swift */,
 				BE530CD5222723DF00B62C98 /* ViewController.swift */,
 				BE530CD7222723E000B62C98 /* Main.storyboard */,
+				BEE5F0DC22277395003B11BC /* GameState.swift */,
+				BEE5F0DE22278968003B11BC /* Successor.swift */,
+				BEE5F0E02227907D003B11BC /* Search.swift */,
 				BE530CDA222723E600B62C98 /* Assets.xcassets */,
 				BE530CDC222723E600B62C98 /* LaunchScreen.storyboard */,
 				BE530CDF222723E600B62C98 /* Info.plist */,
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE5F0DF22278968003B11BC /* Successor.swift in Sources */,
+				BEE5F0DD22277395003B11BC /* GameState.swift in Sources */,
+				BEE5F0E12227907D003B11BC /* Search.swift in Sources */,
 				BE530CD6222723DF00B62C98 /* ViewController.swift in Sources */,
 				BE530CD4222723DF00B62C98 /* AppDelegate.swift in Sources */,
 			);

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Modified Dots and Boxes
 //
-//  Created by William Schroeder on 2/27/19.
+//  Created by William Schroeder.
 //  Copyright © 2019 William Schroeder. All rights reserved.
 //
 
